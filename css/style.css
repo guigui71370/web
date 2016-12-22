@@ -298,6 +298,10 @@ h3 {
 	font-size: 70px;
 }
 
+#tableindex{
+	margin-right: auto;
+	margin-left: auto;
+}
 
 .row > * {
     padding: 0 15px;
