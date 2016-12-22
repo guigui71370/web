@@ -1,0 +1,195 @@
+a {
+	text-decoration: none;
+	color: inherit;
+}
+
+.header {
+	position: fixed;
+	left: 0px;
+	right: 0px;
+	top:0px;
+	height: 70px;
+	line-height: 70px;
+	color: black;
+	background-color: white;
+	font-size: 1.6em;
+	display: flex;
+	z-index: 999;
+	
+}
+
+.sheader {
+	position: fixed;
+	left: 0px;
+	right: 0px;
+	top: 70px;
+	height: 40px;
+	line-height: 40px;
+	color: black;
+	background-color: white;
+	font-size: 1.6em;
+	display: flex;
+	z-index: 999;
+	
+}
+
+
+
+.header__logo {
+	padding: 0 25px;
+	order: 1;
+	margin: auto;
+}
+
+.header__logo img {
+    vertical-align: middle;
+    height: 60px;
+    cursor: pointer;
+}
+
+.header__icon {
+	order: 2;
+	display: none;
+}
+
+.site-content {
+	padding-top: 110px;
+}
+
+.menu {
+	margin: auto; 
+	font-size: 0.7em;
+}
+
+.menu ul, .menu li {
+	list-style-type: none;
+}
+
+.menu>ul {
+	display: flex;
+	flex-direction: row;
+	margin: 0;
+	padding: 0;
+}
+
+.menu li {
+	position: relative;
+	margin: 0;
+	padding: 0;
+}
+
+.menu li ul {
+    display: none;
+    position: absolute;
+    top: 40px;
+    left: 0;
+    background: #fff;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+}
+
+.menu>ul>li>ul li a {
+	font-size: 0.8em;
+}
+
+.menu>ul>li>ul>li>ul {
+    left: initial;
+    font-size: 0.9em;
+	top: 0px;
+	right: -5em;
+}
+
+.menu>ul>li>ul>li>ul>li {
+	height: 40px;
+	line-height: 30px;
+	left:initial;
+}
+
+.menu>ul>li>ul>li {
+    line-height: 40px;
+}
+
+body:not(.modalIsOpen) .menu li:hover > ul
+{
+	display:block
+}
+
+.menu a {
+	padding:0 10px;
+}
+
+.menu a:hover {
+	color: rgba(0,0,0,0.7);
+}
+
+#footer {
+	padding-bottom: 0px;
+	color: black;
+	word-break: break-all;
+}
+
+@font-face {
+    font-family: "myFontName";
+    src: url(SourceSansPro-Black.otf);
+}
+
+
+
+
+
+
+
+
+
+
+
+#back {
+	width:600px;
+	line-height:150%;
+	margin :auto;
+
+	background-image:url('../css/image.jpg');
+	background-size:cover;
+	background-repeat:no-repeat;
+	background-attachment:fixed;
+
+}
+
+#box {
+	-webkit-border-radius:10px;
+    -moz-border-radius:10px;
+    border-radius:10px;
+    -moz-box-shadow: 0 0 20px #555; 
+    -webkit-box-shadow:0 0 20px #555; 
+    box-shadow:0 0 20px #555; 
+    padding:20px;
+    margin:110px 20px 20px 20px;
+    background: rgba(255, 255, 255, 0.65);
+
+}
+
+
+.box-bleu {
+	-webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius: 10px;
+    -moz-box-shadow: 0 0 20px #555; 
+    -webkit-box-shadow: 0 0 20px #555; 
+    box-shadow: 0 0 20px #555; 
+    padding:20px;
+    margin:20px;
+    background-color:white;
+  
+}
+
+
+
+
+
+
+
+
+
+
+
