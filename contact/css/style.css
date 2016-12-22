@@ -1,0 +1,46 @@
+body{
+}
+@font-face {
+    font-family: "myFontName";
+    src: url(SourceSansPro-Black.otf);
+}
+
+#back {
+	width:600px;
+	line-height:150%;
+	margin :auto;
+
+	background-image:url('../css/image.jpg');
+	background-size:cover;
+	background-repeat:no-repeat;
+	background-attachment:fixed;
+
+}
+
+#box {
+	-webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius: 10px;
+    -moz-box-shadow: 0 0 20px #555; 
+    -webkit-box-shadow: 0 0 20px #555; 
+    box-shadow: 0 0 20px #555; 
+    padding:20px;
+    margin:20px;
+    background: rgba(255, 255, 255, 0.65);
+
+}
+
+
+.box-bleu {
+	-webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius: 10px;
+    -moz-box-shadow: 0 0 20px #555; 
+    -webkit-box-shadow: 0 0 20px #555; 
+    box-shadow: 0 0 20px #555; 
+    padding:20px;
+    margin:20px;
+    background-color:white;
+  
+}
+
