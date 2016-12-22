@@ -302,7 +302,7 @@ body:not(.modalIsOpen) .menu li:hover > ul
 #box {
  
     
-    margin:auto;
+    display:block;
  
 
 }
